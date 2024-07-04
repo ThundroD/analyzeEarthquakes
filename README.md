@@ -28,8 +28,7 @@ Frequency of Earthquakes: The more frequent the earthquakes in a region, the hig
 Average Magnitude of Earthquakes: Higher magnitude earthquakes pose greater risk.
 
 This is obviously a very basic solution. I normalized this data into a risk score to make it easier for insurers to read, however if this is all done
-by a machine I do regret rounding numbers and doing it this way as things could be calculated quickly and accurately with no need for it to look good on a display
-- however the countries and regions would still remain the same having the highest risk first. 
+by a machine I do regret rounding numbers and doing it this way as things could be calculated quickly and accurately with no need for it to look good on a display. However the countries and regions would still remain the same having the highest risk first. 
 
 To consider building this out the first step would be to pull in more historical data to compare the 30 day data that we have from USGS, also things like
 population density, soil density, and economic impact could provide a more comprehensive risk assessment. Other considerations would be to use dynamic 
